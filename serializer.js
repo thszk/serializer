@@ -6,8 +6,8 @@ let input = null
 let output = null
 
 if (!fileToParse) {
-	console.log('Provide the path to input file that must be serialized!')
-	console.log('Eg.: ./input-file')
+	console.log('Please, provide the path to input file that must be serialized!')
+	console.log('eg.: ./serializer <file-path>')
 	process.exit(1)
 }
 
